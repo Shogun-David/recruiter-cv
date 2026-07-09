@@ -25,7 +25,11 @@ The primary business domain is:
 > Intelligent Recruitment Platform capable of extracting information from candidate CVs, storing structured knowledge and embeddings, and matching candidates to job profiles using LLMs.
 
 ---
-
+# Entities
+- Collaborator (linked by status_id)
+- Status
+- Profile
+- Profile Detail (linked by profile_id)
 # Technology Stack
 
 Backend

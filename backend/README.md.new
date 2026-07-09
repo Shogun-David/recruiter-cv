@@ -1,0 +1,13 @@
+# Backend
+
+Quarkus backend scaffold for the recruiter CV platform.
+
+## Estado actual
+- Arquitectura base para el dominio de reclutamiento con entidades JPA para candidatos, CVs, embeddings, perfiles laborales, habilidades, experiencias, educación, idiomas y certificaciones.
+- Servicio y endpoint REST para crear candidatos en /api/candidates.
+- Configuración de Quarkus con soporte para PostgreSQL, Flyway y validación.
+
+## Ejecutar
+```bash
+mvn quarkus:dev
+```

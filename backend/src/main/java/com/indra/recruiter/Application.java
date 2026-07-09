@@ -1,7 +1,9 @@
-package com.indra.recruiter;  
-  
-public class Application {  
-    public static void main(String[] args) {  
-        System.out.println(\"Backend scaffold ready\");  
-    }  
-} 
+package com.indra.recruiter;
+
+import io.quarkus.runtime.Quarkus;
+
+public class Application {
+    public static void main(String[] args) {
+        Quarkus.run(args);
+    }
+}
